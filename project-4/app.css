@@ -1,0 +1,14 @@
+body{
+    background:pink;
+    color:white;
+}
+.a{
+    color:red;
+}
+
+.x{
+    color:rgba(255,0,0,0.7);
+}
+.y{
+    color:rgba(255,0,0,0.3);
+}
