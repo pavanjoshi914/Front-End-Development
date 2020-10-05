@@ -1,6 +1,11 @@
 body{
     background:pink;
     color:white;
+    margin: 0;
+    padding: 0;
+}
+header {
+  display: inline;
 }
 .a{
     color:red;
@@ -11,4 +16,43 @@ body{
 }
 .y{
     color:rgba(255,0,0,0.3);
+}
+nav {
+  background-color: rgba(255,0,0,0.3);
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(255,0,0,0.3);
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: rgba(255,0,0,0.3);
+  text-align: center;
+  color: white;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: rgba(255,0,0,0.3);
+  text-align: center;
+  font-weight: bold;
+  clear: both;
+
 }
