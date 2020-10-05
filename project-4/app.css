@@ -12,3 +12,11 @@ body{
 .y{
     color:rgba(255,0,0,0.3);
 }
+.r2-button{
+    border-radius: 15px;
+    background-color: rgb(0, 255, 179);
+    outline: 0;
+    border-width: 0;
+    color: palevioletred ;
+    
+}
