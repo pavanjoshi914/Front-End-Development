@@ -1,130 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <title>
-        Image Gallery
-    </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
+<body> 
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark title">
-        <a class="navbar-brand " href="#"><i class="fas fa-camera-retro mr-2"></i>Image Gallery</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!--Navigation Bar-->   
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      	 <div class="container-fluid">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+       </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item " href="#">About us</a>
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+           <li><a href="#">Contact</a></li>
 
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item " href="#">Credits ~ pavan j</a>
-                    </div>
-                </li>
-
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-
-    </nav>
-    <div class="container">
-        <div class="header">
-            <h1 class="display-3"><i class="fas fa-camera-retro mr-sm-2"></i>The Image Gallery</h1>
-            <p>A Bunch of beautifull images</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row ">
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp1813217.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2562825.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2555019.jpg" width="350px">
-            </div>
-
-              
-
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2570964.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2046360.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596942.jpg" width="350px">
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596942.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596943.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596944.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2570990.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596944.jpg" width="350px">
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <img src="https://wallpapercave.com/wp/wp2596949.jpg" width="350px">
-            </div>
-        </div>
-        <hr>
-        <footer>
-            name:pavan sanjay joshi
-        </footer>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="#">Sign up</a></li>
+           <li><a href="#">Login</a></li>
+         </ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+      </div>
+   </nav>
+   
+   
+<!--Header:Jumbortron (The image gallery)-->   
+   <div class="container">
+		<div class="jumbotron">
+			<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+			<p>A bunch of beautiful images that I didn't take.</p> 
+		</div>
 
 
+    <!-- Setting up the Grid-->  
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590432621468-743ef06198e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590431703370-b272c0d549a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" >
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590415000895-04ab80fcd2da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div> 
+		</div>
 
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590463778140-3ba3e0d55aeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590462130952-60cfe9cabafd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=600">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590461141004-c98bf5335cd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div> 
+		</div>
 
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590421060477-021b4d1c1974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590451070402-46723d20a6cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				   <img src="https://images.unsplash.com/photo-1590450350431-8c7553471863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+				</div>
+			</div> 
+		</div>
+	</div>
+	<div id="ff-compose"></div>
+	<script async defer
+		src="https://formfacade.com/include/116549774514331072827/form/1FAIpQLSdHQIpnHbn9GwjnkAuMoevZEUGGEW1UbZLR0LhwOgIAyNQReg/classic.js?div=ff-compose"></script>
 
+   <!--jQuery Comtent Delivery Network (CDN)-->
+   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-
-
-
-    </div>
-
-
-
-    <script src="https://kit.fontawesome.com/511fc6ba9b.js" crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
-
 </html>
