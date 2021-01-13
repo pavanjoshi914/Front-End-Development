@@ -1,3 +1,4 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 .vertical{
     border-left:1px solid black;
     border-right:1px solid black;
@@ -10,18 +11,22 @@ td{
     
     height:100px;
     width:100px;
+    flex-direction: column;
+    justify-content: flex-end;
     
 
 
 }
 td:hover{
     border:1px solid bisque;
+    transform: scale(1.05);
     
 }
 body{
     background:url(https://wallpapercave.com/wp/wp2555730.jpg);
     background-repeat: no-repeat;
     background-size:100%;
+
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
@@ -32,6 +37,7 @@ table{
     border-spacing: 0;
     margin: 10px auto;
     background-color: #cccc55;
+
 }
 
 table tr td{
@@ -78,6 +84,7 @@ div {
        inset 0 -3em 3em rgba(187, 27, 27, 0.5), 
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(77, 14, 14, 0.5); 
+
 }
 
 .winner {
@@ -101,3 +108,31 @@ button{
     background-color: #ef76;
     font-size: 40px;
 }
+
+
+        
+ @media screen and(max-width: 900px) {
+ body {
+        justify-content: space-around;
+        align-items: center;
+     }
+    }
+            
+              
+ @media screen and(max-width: 550px) {
+    body {
+        justify-content: space-around;
+        align-items: center;
+     }
+              }
+    
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --bg: #161618;
+                  --bgTint: #27272c;
+                  --textColor: #dbd7db;
+                  --bgGrey: #27272c;
+                  --textColorInverse: #0e0f0f;
+                }
+              }
+
