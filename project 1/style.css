@@ -1,11 +1,11 @@
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 .vertical{
-    border-left:1px solid black;
-    border-right:1px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
 }
 .horizantal{
-    border-top:1px solid black;
-    border-bottom:1px solid black;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
 }
 td{
     
@@ -77,6 +77,7 @@ table tr td:last-child{
 }
 h1{
     margin-bottom:0em;
+    padding-bottom: 0.5em;
 }
 div {
   padding: 20px;
