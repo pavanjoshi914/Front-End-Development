@@ -1,14 +1,7 @@
 body{
-    background:pink;
+    background:linear-gradient(to bottom, pink, orange, red, purple);
     color:white;
-}
-.a{
-    color:red;
-}
-
-.x{
-    color:rgba(255,0,0,0.7);
-}
-.y{
-    color:rgba(255,0,0,0.3);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
