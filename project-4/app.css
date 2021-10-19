@@ -12,3 +12,29 @@ body{
 .y{
     color:rgba(255,0,0,0.3);
 }
+.navbar{
+    background-color: #ffb10085;
+    
+}
+.navbar ul li {
+    color: red;
+    position: relative;
+}
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 39px;
+    top: 33px;
+    height: 3px;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    background-color: rgb(255, 0, 0);
+    transition: width .4s linear;
+    border-radius: 100%;
+    left: 39px;
+    top: 33;
+}
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
