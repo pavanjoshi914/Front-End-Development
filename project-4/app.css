@@ -1,17 +1,11 @@
 body{
-    background:pink;
+    background:linear-gradient(to bottom, pink, orange, red, purple);
     color:white;
-}
-.a{
-    color:red;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
-.x{
-    color:rgba(255,0,0,0.7);
-}
-.y{
-    color:rgba(255,0,0,0.3);
-}
 .navbar{
     background-color: #ffb10085;
     
